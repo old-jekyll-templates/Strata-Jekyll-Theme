@@ -1,0 +1,94 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+$size-header-pad:		1.5em;
+
+/* Basic */
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		&.major {
+			h2 {
+				font-size: 1.35em;
+			}
+		}
+	}
+
+/* List */
+
+	ul {
+		&.labeled-icons {
+			li {
+				padding-left: 2em;
+
+				h3 {
+					line-height: 1.75em;
+				}
+			}
+		}
+	}
+
+/* Header */
+
+	#header {
+		padding: ($size-header-pad * 1.5) $size-header-pad;
+		
+		h1 {
+			font-size: 1.35em;
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		padding: ($size-header-pad * 1.5) $size-header-pad;
+	}
+	
+/* Main */
+
+	#main {
+		padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - $size-element-margin) $size-header-pad;
+
+		> section {
+			margin: ($size-header-pad * 1.5) 0 0 0;
+			padding: ($size-header-pad * 1.5) 0 0 0;
+		}
+	}
+	
+/* Poptrox */
+
+	.poptrox-popup {
+		border-radius: 0;
+		
+		.nav-next,
+		.nav-previous {
+			&:before {
+				margin-top: -1em;
+			}
+		}
+	}
