@@ -1,12 +1,12 @@
 # Site settings
 
-title: Strata # Title of your site
+title: Strata # Type the title of your site here
 email: your-email@domain.com # Your contant email
+avatar: /images/avatar.jpg # Put your avatar in the images folder and replace avatar.jpg with the name of your file
 
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Write an <strong>awesome description</strong> <br /> for your site here.</br /> Feel free to use some basic HTML <br />formating to make it even cooler.
+
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 

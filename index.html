@@ -8,7 +8,7 @@ layout: default
     <section>
         {% for post in site.posts limit:1 %}
             <header class="major">
-                <h2>{{ post.title }}</h2>
+                <h2>{{ post.title | site.title }}</h2>
                 <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>
 
