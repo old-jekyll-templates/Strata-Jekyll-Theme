@@ -1,17 +1,16 @@
 <head>
-	<title>Strata by HTML5 UP</title>
+	<title>{% if page.title %}{{ page.title }} | {{site.title}} {% else %}{{ site.title }}{% endif %}</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-	<script src="/js/jquery.min.js"></script>
-	<script src="/js/jquery.poptrox.min.js"></script>
-	<script src="/js/skel.min.js"></script>
-	<script src="/js/init.js"></script>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+	<!--[if lte IE 8]><script src="{{ "css/ie/html5shiv.js"></script><![endif]-->
+	<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/jquery.poptrox.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/skel.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/init.js" | prepend: site.baseurl }}"></script>
 	<noscript>
-		<link rel="stylesheet" href="/css/skel.css" />
-		<link rel="stylesheet" href="/css/style.css" />
-		<link rel="stylesheet" href="/css/style-xlarge.css" />
+		<link rel="stylesheet" href="{{ "/css/skel.css" | prepend: site.baseurl }}" />
+		<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" />
+		<link rel="stylesheet" href="{{ "/css/style-xlarge.css" | prepend: site.baseurl }}" />
 	</noscript>
-	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie/v8.css" | prepend: site.baseurl }}" /><![endif]-->
 </head>
