@@ -4,9 +4,9 @@ title: Strata # Title of your site
 email: your-email@domain.com # Your contant email
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+   <strong>I am <a href="/">Strata</a></strong>, a super simple<br />
+   responsive site template freebie<br />
+   crafted by <a href="http://html5up.net">HTML5 UP</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -23,3 +23,6 @@ dribbble_username:    example  # Replace this with your Dribbble username
 
 # Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: css
