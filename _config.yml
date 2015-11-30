@@ -21,6 +21,9 @@ google_plus_username: example  # Replace this with your Google+ username
 facebook_username:    example  # Replace this with your Facebook username
 dribbble_username:    example  # Replace this with your Dribbble username
 
+# GTM Analytics - Customize with your GTM ID
+# ex: "GTM-XXXXXX"
+gtm: ""
 # Build settings
 markdown: kramdown
 
