@@ -7,19 +7,19 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://github.com/voltdatalab/datalab" # the base hostname & protocol for your site
+baseurl: "http://datalab.voltdata.info/posts" # the subpath of your site, e.g. /blog/
+url: "http://datalab.voltdata.info" # the base hostname & protocol for your site
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     example  # Replace this with your Twitter username
-github_username:      example  # Replace this with your GitHub username
-linkedin_username:    example  # Replace this with your LinkedIn username
-google_plus_username: example  # Replace this with your Google+ username
-facebook_username:    example  # Replace this with your Facebook username
-dribbble_username:    example  # Replace this with your Dribbble username
+twitter_username:     @voltmediabr  # Replace this with your Twitter username
+github_username:      voltdatalab  # Replace this with your GitHub username
+linkedin_username:      # Replace this with your LinkedIn username
+google_plus_username:   # Replace this with your Google+ username
+facebook_username:    voltdata  # Replace this with your Facebook username
+dribbble_username:      # Replace this with your Dribbble username
 
 # Build settings
 markdown: kramdown
