@@ -20,6 +20,8 @@ linkedin_username:      # Replace this with your LinkedIn username
 google_plus_username:   # Replace this with your Google+ username
 facebook_username:    heiko.paland  # Replace this with your Facebook username
 dribbble_username:      # Replace this with your Dribbble username
+researchgate_username:    Heiko_Paland  # Replace this with your Facebook username
+
 
 # Build settings
 markdown: kramdown
