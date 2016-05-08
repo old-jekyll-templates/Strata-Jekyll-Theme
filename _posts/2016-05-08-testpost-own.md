@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Hello World
+categories: update
 ---
 # Hello World
 
