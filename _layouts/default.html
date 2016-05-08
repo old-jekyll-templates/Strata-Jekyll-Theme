@@ -37,6 +37,7 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
+       	{% unless page.exclude %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
@@ -44,7 +45,12 @@
             </li>
           {% endif %}
         {% endif %}
+        {% endunless %}
       {% endfor %}
+      
+     
+       
+    
 
     </ul>   
           
@@ -127,7 +133,7 @@
             <ul class="copyright">
                 <li>&copy; Heiko Paland</li>
                 
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>credits <a href="http://html5up.net">HTML5 UP</a></li>
                 
                 <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
             </ul>
