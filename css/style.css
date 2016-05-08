@@ -448,6 +448,25 @@
 		.icon > .label {
 			display: none;
 		}
+		
+	.icon-ai {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon-ai:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: Academicons;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon-ai > .label {
+			display: none;
+		}
 
 /* Image */
 
