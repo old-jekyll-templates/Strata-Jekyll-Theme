@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Credits
 exclude_from_nav: true
 ---
 Design: <a href="http://html5up.net">HTML5 UP</a>
