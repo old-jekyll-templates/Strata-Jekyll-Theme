@@ -3,12 +3,12 @@ layout: page
 title: Contact & Credits
 exclude_from_nav: true
 ---
-# Contact
-
 ## Angaben gemäß § 5 TMG
 
 Heiko Paland
+
 Ernst-Thälmann-Ring 51a
+
 17491 Greifswald 
 
 ### Vertreten durch: 
@@ -19,7 +19,9 @@ E-Mail: paland.heiko@gmail.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 Heiko Paland 
+
 Ernst-Thälmann-Ring 51a
+
 17491 Greifswald
 
 ## Haftungsausschluss: 
