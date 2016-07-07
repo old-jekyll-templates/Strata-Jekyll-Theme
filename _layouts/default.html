@@ -127,6 +127,14 @@
                 </a>
               </li>
               {% endif %}
+              
+              {% if site.orcid_username %}
+              <li>
+                <a href="http://http://orcid.org/{{ site.orcid_username }}" class="icon icon-ai ai-orcid">
+                  <span class="label">ORCID</span>
+                </a>
+              </li>
+              {% endif %}
 
               {% if site.email %}
               <li>
