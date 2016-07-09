@@ -598,6 +598,10 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
+	
+	ul.sidebar-nav {
+		list-style: none;
+	}
 
 		ul li {
 			padding-left: 0.5em;
