@@ -5,7 +5,7 @@ title: About me
 
 I am a medical student at University of Greifswald and working on my doctors's degree (Dr. med.) at the Department of Pharmacology and the Department of Neurosurgery.  I am running research on the malignant brain tumor glioblastoma multiforme, while following my interests in versatile topics like statistics and data science, openscience, reproducible research, ethics and philosophy.
 
-<ul class="icons">
+<ul>
 
   {% if site.github_username %}
   <li>
@@ -78,8 +78,4 @@ I am a medical student at University of Greifswald and working on my doctors's d
     </a>
   </li>
   {% endif %}
-</ul>
-<ul class="copyright">
-    <li>&copy; Heiko Paland</li>
-    <li><a href="/contact_credits.html">credits & contact</a></li>
 </ul>
