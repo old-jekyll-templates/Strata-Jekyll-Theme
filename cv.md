@@ -20,7 +20,5 @@ title: Curriculum Vitae
 ## Skills
 
 | Languages | German, English, Latin
-
 | Programming languages | R, Markdown, Pascal, PHP, MySQL,  JavaScript, LaTeX, CSS, HTML
-
 | Computer Programs | RStudio, IBM SPSS, Graphpad Prism, ImageJ / Fiji, Slicer, OsiriX
