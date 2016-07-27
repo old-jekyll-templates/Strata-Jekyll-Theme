@@ -5,6 +5,7 @@
   		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   		<meta name="description" content="" />
   		<meta name="keywords" content="" />
+      <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon-flask.ico" | prepend: site.baseurl }}" >
   		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
   		<script src="/js/jquery.min.js"></script>
   		<script src="/js/jquery.poptrox.min.js"></script>
@@ -24,7 +25,7 @@
           <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>I am <a href="/">Heiko Paland</a></strong></h1>
           <p>#science, #medicine, #rstats</p>
-          
+
       <ul class="sidebar-nav">
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
         <a href="/">Home</a>
@@ -37,33 +38,33 @@
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
-       	
+
         {% if node.title != null %}
           {% if node.layout == "page" %}
-          
+
           {% unless node.exclude_from_nav %}
-          
+
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
             </li>
-           
+
           {% endunless %}
-          
+
           {% endif %}
         {% endif %}
-        
-      {% endfor %}
-      
-     
-       
-    
 
-    </ul>   
-          
+      {% endfor %}
+
+
+
+
+
+    </ul>
+
       </header>
-      
-      
-      
+
+
+
 
 
         {{ content }}
@@ -119,7 +120,7 @@
                 </a>
               </li>
               {% endif %}
-              
+
               {% if site.researchgate_username %}
               <li>
                 <a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}" class="icon icon-ai ai-researchgate">
@@ -127,7 +128,7 @@
                 </a>
               </li>
               {% endif %}
-              
+
               {% if site.orcid_username %}
               <li>
                 <a href="http://orcid.org/{{ site.orcid_username }}" class="icon icon-ai ai-orcid">
