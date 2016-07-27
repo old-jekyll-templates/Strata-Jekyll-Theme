@@ -5,7 +5,7 @@ title: Curriculum Vitae
 
 Education
 
-| 2016 |  Biomedical Science
+| 2014 - present | Undergraduate student in Biomedical Science
 | 2011 - present | Medical student at University Medicine Greifswald, Germany
 
 
