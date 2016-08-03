@@ -23,6 +23,7 @@ dribbble_username:      # Replace this with your Dribbble username
 researchgate_username:    Heiko_Paland  # Replace this with your Facebook username
 orcid_username:    0000-0003-1318-1763
 
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
