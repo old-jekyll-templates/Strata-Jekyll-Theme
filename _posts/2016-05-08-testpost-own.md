@@ -8,3 +8,5 @@ author: Heiko
 # Hello World
 
 This is my first hello-world blog test.
+<!--more-->
+Lines after the separator.
