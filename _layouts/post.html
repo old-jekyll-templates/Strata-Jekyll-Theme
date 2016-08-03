@@ -11,11 +11,11 @@ layout: default
         <section>
             {{ content }}
         </section>
-        
+
         <footer>
             <div class="row">
             {% if page.previous %}
-            
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
                     <header>
                         <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
@@ -30,9 +30,9 @@ layout: default
                     </footer>
                 </article>
             {% endif %}
-            
+
             {% if page.next %}
-            
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
                     <header>
                         <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
@@ -47,6 +47,25 @@ layout: default
                     </footer>
                 </article>
             {% endif %}
+            </div>
+            <div class="row">
+              {% if page.comments %}
+                <div id="disqus_thread"></div>
+                <script>
+                var disqus_config = function () {
+                  this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}";
+                  this.page.identifier = "{{ page.id }}";
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+                  s.src = '//palandh.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              {% endif %}
             </div>
         </footer>
 
