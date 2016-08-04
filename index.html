@@ -10,7 +10,7 @@ layout: default
         <div class="row">
             {% for post in site.posts offset:0 %}
 
-                <article class="{% cycle '6u', '6u$' %} 12u(small)">
+                <article class="6u 12u(small)">
                     <header>
                         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %} • <span class="fa fa-comments"></span> <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></span></p>
