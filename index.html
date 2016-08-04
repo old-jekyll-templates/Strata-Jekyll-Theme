@@ -12,7 +12,7 @@ layout: default
 
                 <article class="{% cycle '6u', '6u$' %} 12u(small)">
                     <header>
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a><span class="disqus-comment-count" data-disqus-url="{{ post.url }}">Comments</span></h2>
+                        <h2><a href="{{ post.url }}">{{ post.title }}</a><span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">First article</span></h2>
                     </header>
                     <section>
                         {{ post.excerpt }}
