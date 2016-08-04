@@ -171,7 +171,7 @@
 	.align-right {
 		text-align: right;
 	}
-    
+
     .f-right {
         float: right;
     }
@@ -448,7 +448,7 @@
 		.icon > .label {
 			display: none;
 		}
-		
+
 	.icon-ai {
 		text-decoration: none;
 		border-bottom: none;
@@ -598,7 +598,7 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
-	
+
 	ul.sidebar-nav {
 		list-style: none;
 	}
@@ -994,6 +994,12 @@
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+
+/* License */
+
+.license {
+	font-size: 0.8em;
+}
 
 /* Footer */
 
