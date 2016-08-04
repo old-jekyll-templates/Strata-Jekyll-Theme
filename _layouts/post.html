@@ -14,7 +14,15 @@ layout: default
 
         </section>
 
-        {% include disqus_comments.html %}
+        <section>
+          {% if page.license == "cc-by" %}
+            {% include license/cc-by.html %}
+          {% endif %}
+        </section>
+
+        <section>
+          {% include disqus_comments.html %}
+        </section>
 
         <footer>
             <div class="row">
