@@ -212,6 +212,10 @@
 		font-size: 2em;
 	}
 
+	header.major p.post-meta {
+		font-size: 0.8em;
+	}
+
 /* Form */
 
 	form {
