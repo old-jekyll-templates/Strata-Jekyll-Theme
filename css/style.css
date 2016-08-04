@@ -186,6 +186,7 @@
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		font-size: 0.8em;
 	}
 
 	header h2 + p {
@@ -210,10 +211,6 @@
 
 	header.major h2 {
 		font-size: 2em;
-	}
-
-	header.major .post-meta {
-		font-size: 0.8em;
 	}
 
 /* Form */
