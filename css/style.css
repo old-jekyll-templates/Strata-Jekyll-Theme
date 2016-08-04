@@ -186,19 +186,20 @@
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
-		font-size: 0.8em;
 	}
 
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
 		line-height: 1.5em;
+		font-size: 0.8em;
 	}
 
 	header h3 + p {
 		font-size: 1.1em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
+		font-size: 0.8em;
 	}
 
 	header h4 + p,
@@ -207,6 +208,7 @@
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
+		font-size: 0.8em;
 	}
 
 	header.major h2 {
