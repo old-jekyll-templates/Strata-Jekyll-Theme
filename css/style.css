@@ -1001,6 +1001,10 @@
 	font-size: 0.8em;
 }
 
+.license img {
+	vertical-align: middle;
+}
+
 /* Footer */
 
 	#footer {
