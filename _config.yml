@@ -24,7 +24,7 @@ researchgate_username:    Heiko_Paland  # Replace this with your Facebook userna
 orcid_username:    0000-0003-1318-1763
 
 excerpt_separator: <!--more-->
-paginate: 5
+paginate: 10
 
 
 # Build settings
