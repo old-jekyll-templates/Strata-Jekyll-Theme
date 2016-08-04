@@ -5,7 +5,7 @@ layout: default
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <span class="fa fa-comments"></span> <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></span></p>
         </header>
 
         <section>
@@ -15,7 +15,7 @@ layout: default
         </section>
 
         {% include disqus_comments.html %}
-        
+
         <footer>
             <div class="row">
             {% if page.previous %}
