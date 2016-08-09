@@ -13,4 +13,4 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ![By Alexander Graham Bell. (d. 1922) [Public domain], via Wikimedia Commons]({{ site.url }}/images/fulls/2016-08-09_Bell-Notebook.jpg)
 *By Alexander Graham Bell. (d. 1922) [Public domain], via Wikimedia Commons*
 
-<img src="/images/fulls/2016-08-09_Bell-Notebook.jpg" class="fit image">
+<img src="/images/fulls/2016-08-09_Bell-Notebook.jpg" class="fit image">*By Alexander Graham Bell. (d. 1922) [Public domain], via Wikimedia Commons*
