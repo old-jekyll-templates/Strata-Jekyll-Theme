@@ -567,6 +567,10 @@
 			width: 100%;
 		}
 
+		.image.fit ~ em {
+			margin: 0 0 0 0;
+		}
+
 			.image.fit img {
 				width: 100%;
 			}
