@@ -541,6 +541,10 @@
 			display: block;
 		}
 
+		.image em {
+			margin: 0 0 0 0.2em;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
