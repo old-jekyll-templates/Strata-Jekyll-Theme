@@ -2,12 +2,13 @@
 layout: page
 title: Contact & Credits
 exclude_from_nav: true
+noindex: true
 ---
 ## Angaben gemäß § 5 TMG
 
 Heiko Paland
 Ernst-Thälmann-Ring 51a
-17491 Greifswald  
+17491 Greifswald
 
 ### Vertreten durch:
 Heiko Paland
@@ -49,7 +50,7 @@ Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (
 Sie können die Erfassung durch Google Analytics verhindern, indem Sie auf folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, das die zukünftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert:
 <a href="javascript:gaOptout()">Google Analytics deaktivieren</a>
 
-Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter http://www.google.com/analytics/terms/de.html bzw. unter [https://www.google.de/intl/de/policies/]. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code „anonymizeIp“ erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten.
+Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter http://www.google.com/analytics/terms/de.html bzw. unter [https://www.google.de/intl/de/policies/](https://www.google.de/intl/de/policies/). Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code „anonymizeIp“ erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten.
 
 # Credits
 
