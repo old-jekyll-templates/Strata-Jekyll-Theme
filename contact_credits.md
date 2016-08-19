@@ -17,9 +17,9 @@ Heiko Paland
 E-Mail: paland.heiko@gmail.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Heiko Paland
-Ernst-Thälmann-Ring 51a
-17491 Greifswald
+Heiko Paland  
+Ernst-Thälmann-Ring 51a  
+17491 Greifswald  
 
 ## Haftungsausschluss:
 
@@ -54,5 +54,5 @@ Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter [h
 
 # Credits
 
-Design: <a href="http://html5up.net">HTML5 UP</a>
+Design: <a href="http://html5up.net">HTML5 UP</a>  
 Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
