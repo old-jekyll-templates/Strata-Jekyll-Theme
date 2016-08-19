@@ -7,7 +7,7 @@ exclude_from_nav: true
 
 Heiko Paland
 Ernst-Thälmann-Ring 51a
-17491 Greifswald
+17491 Greifswald  
 
 ### Vertreten durch:
 Heiko Paland
