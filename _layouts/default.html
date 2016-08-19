@@ -18,7 +18,11 @@
   			<link rel="stylesheet" href="/css/style-xlarge.css" />
   		</noscript>
   		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-      
+      <!-- meta robots -->
+      {% if page.noindex %}
+       <meta name="robots" content="noindex" />
+      {% endif %}
+
   	</head>
 
 	<body id="top">
