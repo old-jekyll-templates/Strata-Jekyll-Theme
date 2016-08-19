@@ -6,9 +6,9 @@ noindex: true
 ---
 ## Angaben gemäß § 5 TMG
 
-Heiko Paland
-Ernst-Thälmann-Ring 51a
-17491 Greifswald
+Heiko Paland  
+Ernst-Thälmann-Ring 51a  
+17491 Greifswald  
 
 ### Vertreten durch:
 Heiko Paland
