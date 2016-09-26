@@ -7,7 +7,7 @@ noindex: true
 ---
 ## Everybody in your lab writes his results down in a lab notebook looking like this? Then you should read on!
 
-<span class="image left"><img src="{{ site.url }}/images/fulls/2016-08-09_Bell-Notebook.jpg">*Alexander Graham Bells laboratory notebook. License: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg)*</span>
+<span class="image"><img src="{{ site.url }}/images/fulls/2016-08-09_Bell-Notebook.jpg">*Alexander Graham Bells laboratory notebook. License: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg)*</span>
 
 Every researcher needs to document his results. For decades and generations of researchers used a simple notebook which achieved its purpose just fine. However, nowadays it seems kind of awkward that many researchers still use paper-based lab notebooks (PLN) for documentation of their research. We live in a time where everybody uses smartphones or other electronic helpers. Hence, the question arises why those paper-based lab notebooks still exist, although there is a wide collection of electronic lab notebooks (ELN) available. <!--more-->
 
@@ -27,7 +27,7 @@ In summary, PLNs are cheap and flexible in their usage, but not very safe nor se
 
 Still it remains not comprehensible why PLNs are favored by most researchers. Therefore, we should take a look at possible electronic solutions available. To get a basic overview I recommend this [list on Wikipedia](https://en.wikipedia.org/wiki/List_of_ELN_software_packages) or [this blog post](http://splice-bio.com/the-7-best-electronic-lab-notebooks-eln-for-your-research/). While most PLN that can be found in the list are somewhat older, Scinote and Hivebench represent some new developments in the market. After inspection of the most interesting candidates I came to the conclusion that there are many competing companies out there who try to sell you their ELN by all necessary means.
 
-However, what a new generation of researchers really wants is something different. The movements in science that propagate [<span class="icon fa-twitter"></span>#openscience](https://twitter.com/hashtag/openscience) and [<span class="icon fa-twitter"></span>#opensource](https://twitter.com/hashtag/openscience) are emerging and fast growing. Those researchers need a lab notebook, which is in line with the times (electronic) and also free and open-source. Fortunately, I found one other ELN which seems to fulfill all these needs. Thus, I would like to introduce to you [elabFTW](http://www.elabftw.net/). 
+However, what a new generation of researchers really wants is something different. The movements in science that propagate [#openscience](https://twitter.com/hashtag/openscience) and [#opensource](https://twitter.com/hashtag/openscience) are emerging and fast growing. Those researchers need a lab notebook, which is in line with the times (electronic) and also free and open-source. Fortunately, I found one other ELN which seems to fulfill all these needs. Thus, I would like to introduce to you [elabFTW](http://www.elabftw.net/). 
 
 ## elabFTW
 
