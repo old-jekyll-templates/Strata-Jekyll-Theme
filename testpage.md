@@ -7,7 +7,7 @@ noindex: true
 ---
 ## Everybody in your lab writes his results down in a lab notebook looking like this? Then you should read on!
 
-<span class="image left"><img src="{{ site.url }}/images/fulls/2016-08-09_Bell-Notebook.jpg"></span>*A. G. Bells laboratory notebook. License: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg)*
+<span ><img src="{{ site.url }}/images/fulls/2016-08-09_Bell-Notebook.jpg" class="image left">*A. G. Bells laboratory notebook. License: public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AGBell_Notebook.jpg)*</span>
 
 Every researcher needs to document his results. For decades, researchers have used a simple notebook which achieved its purpose just fine. However, nowadays it seems kind of awkward that many researchers still use paper-based lab notebooks (PLN) for documentation of their research. We live in a time where everybody uses smartphones or other electronic helpers. Hence, the question arises why those paper-based lab notebooks still exist, although there is a wide collection of electronic lab notebooks (ELN) available. <!--more-->
 
