@@ -543,7 +543,8 @@
 
 		.image em {
 			padding: 0 0.2em 0 0.2em;
-			display: inline-block;
+			display: block;
+			z-index: 1;
 		}
 
 		.image.left {
