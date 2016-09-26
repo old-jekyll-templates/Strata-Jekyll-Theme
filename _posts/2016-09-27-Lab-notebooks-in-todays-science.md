@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Lab notebooks in todays science
 comments: true
 license: cc-by
