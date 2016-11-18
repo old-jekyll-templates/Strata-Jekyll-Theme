@@ -5,7 +5,7 @@ title: Curriculum Vitae
 
 ## Education
 
-| 2016 - present | Graduate Student in Health Care Management
+| 2016 - present | Graduate Student in Health Care Management at University of Greifswald, Germany
 | 2014 - 2016 | B. Sc. in Biomedical Science at University Medicine Greifswald, Germany
 | 2011 - present | Medical student at University Medicine Greifswald, Germany
 
