@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-I am a medical student at University of Greifswald and working on my doctor's degree (Dr. med.) at the Department of Pharmacology and the Department of Neurosurgery. Furthermore I am a graduate student in Health Care Management at the University of Greifswald. I am holding a B. Sc. in Biomedical Science from the University Medicine Greifswald. I am running research on the malignant brain tumor glioblastoma multiforme, while following my interests in versatile topics like statistics and data science, openscience, reproducible research, ethics and philosophy.
+I am a medical student at University of Greifswald and working on my doctor's degree (Dr. med.) at the Department of Pharmacology and the Department of Neurosurgery. Furthermore I am a graduate student in Health Care Management at the University of Greifswald. I am holding a B. Sc. in Biomedical Science from the University Medicine Greifswald. On my working days I am running research on the malignant brain tumor glioblastoma multiforme, while following my interests in versatile topics like statistics and data science, openscience, reproducible research, ethics and philosophy. When there is time to unbend, I like to go sailing, driving motorcycle or doing sports.
 
 Feel free to contact me on any channel:
 <ul>
