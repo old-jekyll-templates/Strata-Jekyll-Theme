@@ -1,9 +1,3 @@
-/*
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Button */
 
 	input[type="submit"],
@@ -11,7 +5,7 @@
 	input[type="button"],
 	.button {
 		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
 /* Form */
@@ -22,7 +16,7 @@
 	select,
 	textarea {
 		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
 	input[type="text"],
@@ -42,7 +36,7 @@
 
 	.image {
 		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
 		.image:before, .image:after {
@@ -51,7 +45,7 @@
 
 		.image img {
 			position: relative;
-			-ms-behavior: url("css/ie/PIE.htc");
+			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
 /* Header */
@@ -60,7 +54,7 @@
 		background-image: url("../../images/bg.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		-ms-behavior: url("css/ie/backgroundsize.min.htc");
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
 		#header h1 {
