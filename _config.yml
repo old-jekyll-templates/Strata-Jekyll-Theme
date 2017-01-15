@@ -31,9 +31,11 @@ gems:
   - "jekyll-sitemap"
 
 # Jekyll SEO Tag
-google_site_verification:
-bing_site_verification: # requires https://github.com/jekyll/jekyll-seo-tag/pull/148/
-yandex_site_verification: # requires https://github.com/jekyll/jekyll-seo-tag/pull/148/
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
 
 # -----------
 # CloudCannon
