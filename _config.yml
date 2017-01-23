@@ -1,7 +1,12 @@
 # Site settings
 
-title: Strata # Title of your site
+title: Strata by HTML5 UP # Title of your site
 email: your-email@domain.com # Your contant email
+mailing_address: | # this means to preserve newlines
+  1234 Somewhere Rd.
+  Nashville, TN 000000
+  United States
+phone_number: 555-555-5555
 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -10,16 +15,44 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
+# A path to a static front page. Leave blank to display your most
+# recent post instead of a static home page.
+front_page: "front_page.md"
+
+# The path to your avatar or to your site's logo.
+avatar_url: "/images/avatar.jpg"
+
+# Custom copyright notice. Please retain the copyright statement for
+# original authors, listed below.
+copyright_notices:
+  - '&copy; Untitled' # Place your copyright statement here.
+  - 'Design: <a href="http://html5up.net">HTML5 UP</a>'
+  - 'Demo Images: <a href="https://unsplash.com/">Unsplash</a>'
+  - 'Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>'
+
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
-
 twitter_username:     example  # Replace this with your Twitter username
 github_username:      example  # Replace this with your GitHub username
 linkedin_username:    example  # Replace this with your LinkedIn username
 google_plus_username: example  # Replace this with your Google+ username
 facebook_username:    example  # Replace this with your Facebook username
 dribbble_username:    example  # Replace this with your Dribbble username
+
+# Default layouts.
+# See:https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
 
 # Build settings
 markdown: kramdown

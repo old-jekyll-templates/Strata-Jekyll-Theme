@@ -1,102 +1,120 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  	<head>
-  		<title>Strata by HTML5 UP</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="" />
-  		<meta name="keywords" content="" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-xlarge.css" />
-  		</noscript>
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
-
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		<!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | prpend: site.baseurl }}"></script><![endif]-->
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
+	</head>
 	<body id="top">
 
-      <header id="header">
-          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
-          <h1><strong>I am <a href="/">Strata</a></strong>, a super simple<br />
-          responsive site template freebie<br />
-          crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-      </header>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="{{ "/" | prepend: site.baseurl }}" class="image avatar"><img src="{{ site.avatar_url | prepend: site.baseurl }}" alt="" /></a>
+					<h1><strong>I am Strata</strong>, a super simple<br />
+					responsive site template freebie<br />
+					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+				</div>
+			</header>
 
+<!-- Main -->
+<div id="main">
 
-        {{ content }}
+{{ content }}
 
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
+</div><!-- #main -->
 
-              {% if site.github_username %}
-              <li>
-                <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
 
-              {% if site.twitter_username %}
-              <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
+					<ul class="icons">
 
-              {% if site.linkedin_username %}
-              <li>
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
+{% if site.twitter_username %}
+<li>
+<a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
+<span class="label">Twitter</span>
+</a>
+</li>
+{% endif %}
 
-              {% if site.google_plus_username %}
-              <li>
-                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              {% endif %}
+{% if site.github_username %}
+<li>
+<a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
+<span class="label">GitHub</span>
+</a>
+</li>
+{% endif %}
 
-              {% if site.facebook_username %}
-              <li>
-                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              {% endif %}
+{% if site.dribbble_username %}
+<li>
+<a href="https://dribbble.com/{{ site.dribbble_username }}" class="icon fa-dribbble">
+<span class="label">Dribbble</span>
+</a>
+</li>
+{% endif %}
 
-              {% if site.dribbble_username %}
-              <li>
-                <a href="#" class="icon fa-dribbble">
-                  <span class="label">Dribbble</span>
-                </a>
-              </li>
-              {% endif %}
+{% if site.linkedin_username %}
+<li>
+<a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
+<span class="label">LinkedIn</span>
+</a>
+</li>
+{% endif %}
 
-              {% if site.email %}
-              <li>
-                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-            <ul class="copyright">
-                <li>&copy; Untitled</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                <li>Demo Images: <a href="https://unsplash.com/">Unsplash</a></li>
-                <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
-            </ul>
-        </footer>
+{% if site.google_plus_username %}
+<li>
+<a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
+<span class="label">Google+</span>
+</a>
+</li>
+{% endif %}
+
+{% if site.facebook_username %}
+<li>
+<a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
+<span class="label">Facebook</span>
+</a>
+</li>
+{% endif %}
+
+{% if site.email %}
+<li>
+<a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
+<span class="label">Email</span>
+</a>
+</li>
+{% endif %}
+
+					</ul><!-- .icons -->
+
+					{% if site.copyright_notices %}
+					<ul class="copyright">
+						{% for notice in site.copyright_notices %}
+						<li>{{ notice }}</li>
+						{% endfor %}
+					</ul>
+					{% endif %}
+
+				</div><!-- .inner -->
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+			<script src="{{ "/assets/js/jquery.poptrox.min.js" | prepend: site.baseurl }}"></script>
+			<script src="{{ "/assets/js/skel.min.js" | prepend: site.baseurl }}"></script>
+			<script src="{{ "/assets/js/util.js" | prepend: site.baseurl }}"></script>
+			<!--[if lte IE 8]><script src="{{ "/assets/js/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
+			<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 
 	</body>
 </html>
