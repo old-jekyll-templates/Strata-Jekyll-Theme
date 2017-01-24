@@ -50,3 +50,6 @@ social_icons:
   - Twitter
   - YouTube
   - RSS
+
+_comments:
+  description: Text shown when sharing on social media
