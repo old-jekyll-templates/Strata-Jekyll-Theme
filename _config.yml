@@ -1,22 +1,33 @@
+# Site settings
 locale: "en-US"
-title: Strata # Title of your site
+title: Strata by HTML5 UP # Title of your site
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
-google_analytics_key: ""
 
-# Default description in social shares for the jekyll-seo-tag gem
+# Default description default and enhanced SEO using optional jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-# Author details for the jekyll-seo-tag gem
+# Default contact information
+email: your-email@domain.com # Your main contact email
+mailing_address: | # this means to preserve newlines
+  1234 Somewhere Rd.
+  Nashville, TN 000000
+  United States
+phone_number: 555-555-5555
+
+# If you use Google Analytics, add your account's API key here.
+google_analytics_key: ""
+
+# If using the the optional jekyll-seo-tag gem, set its author detail
 author:
   name: Your Name
   email: your-email@domain.com
   twitter: # twitter username without the @ symbol
 
-# Social details for the jekyll-seo-tag gem
+# If using the optional jekyll-seo-tag gem, enter Social details
 social:
   name: Strata Reloaded Template
   links:
@@ -24,6 +35,11 @@ social:
 
 permalink: pretty
 
+# Choose which optional gems to install. Activate by uncommenting.
+# Note that GitHub Pages deployments may not support all gems.
+# For more info regarding which plugins are allowed on GitHub Pages:
+#
+#     https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"
@@ -53,3 +69,44 @@ social_icons:
 
 _comments:
   description: Text shown when sharing on social media
+
+# A path to a static front page. Leave blank to display your most
+# recent post instead of a static home page.
+front_page: "front_page.md"
+
+# The path to your avatar or to your site's logo.
+avatar_url: "/images/avatar.jpg"
+
+# Custom copyright notice. Please retain the copyright statement for
+# original authors, listed below.
+copyright_notices:
+  - '&copy; Untitled' # Place your copyright statement here.
+  - 'Design: <a href="http://html5up.net">HTML5 UP</a>'
+  - 'Theme: <a href="https://comfusionllc.com/">Comfusion LLC</a>'
+
+# Social links.
+# Replace the word 'example' with your username if you want to include the icon in the left sidebar
+# Delete the word 'example' if you don't want to include the icon in the left sidebar
+twitter_username:     example  # Replace this with your Twitter username
+github_username:      example  # Replace this with your GitHub username
+linkedin_username:    example  # Replace this with your LinkedIn username
+google_plus_username: example  # Replace this with your Google+ username
+facebook_username:    example  # Replace this with your Facebook username
+dribbble_username:    example  # Replace this with your Dribbble username
+
+# Default layouts.
+# See:https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post
+
+# Build settings
+markdown: kramdown
