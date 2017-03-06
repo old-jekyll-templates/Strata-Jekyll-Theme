@@ -539,7 +539,6 @@
 		.image img {
 			border-radius: 0.35em;
 			display: block;
-			z-index: 1;
 		}
 
 		.image em {
