@@ -480,7 +480,7 @@
 		position: relative;
 	}
 
-		.image:before {
+		.image.thumb:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-o-transition: opacity 0.2s ease-in-out;
