@@ -6,9 +6,9 @@ noindex: true
 ---
 ## Angaben gemäß § 5 TMG
 
-Heiko Paland
-Friedrich-Loeffler-Str. 12A
-17489 Greifswald
+Heiko Paland  
+Friedrich-Loeffler-Str. 12A  
+17489 Greifswald  
 
 ### Vertreten durch:
 Heiko Paland
@@ -17,9 +17,9 @@ Heiko Paland
 E-Mail: paland.heiko@gmail.com
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Heiko Paland
-Friedrich-Loeffler-Str. 12A
-17489 Greifswald
+Heiko Paland  
+Friedrich-Loeffler-Str. 12A  
+17489 Greifswald  
 
 ## Haftungsausschluss:
 
