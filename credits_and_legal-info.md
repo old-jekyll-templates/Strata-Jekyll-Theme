@@ -37,9 +37,10 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 ### Datenschutz
 
-Im Rahmen der Einführung der Datenschutzgrundverordnung (DSGVO) weise ich auf die wesentlichen Punkte hinsichtlich des Datenschutzes in verständlicher Form hinweisen. <a href="/data_privacy_statement.html">Die ausführliche Datenschutzerklärung finden sie hier.</a>
+Im Rahmen der Einführung der Datenschutzgrundverordnung (DSGVO) möchten wir kurz auf die wesentlichen Punkte hinsichtlich des Datenschutzes in verständlicher Form hinweisen. <a href="/data_privacy_statement.html">Die ausführliche Datenschutzerklärung finden sie hier.</a>
 
 In aller Kürze:
+- Grundsätzlich werden nach Möglichkeit keine Daten erhoben, technisch bedingt fallen diese aber teilweise mit an.
 - Die Website hat einen Kommentarbereich unter Blogbeiträgen. Hierbei wird der Anbieter DISQUS genutzt.
 - Die Website wird auf Github gehostet, sodass dort auch Logfiles angelegt werden.
 
