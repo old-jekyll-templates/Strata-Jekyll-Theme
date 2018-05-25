@@ -12,7 +12,7 @@ Friedrich-Loeffler-Str. 12A<br>
 Deutschland<br>
 <br>
 Emailadresse: paland.heiko@gmail.com<br>
-Link zum Impressum:http://www.palandh.com/contact_credits.html</span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
+Link zum Impressum: <a href="/credits_and_legal-info.html">http://www.palandh.com/credits_and_legal-info.html</a></span></p><h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
 -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
 -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
 -	Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
