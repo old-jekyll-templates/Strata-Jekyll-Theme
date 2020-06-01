@@ -1,6 +1,6 @@
-locale: "en-US"
-title: Strata # Title of your site
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+locale: "ko"
+title: "김치개발자" # Title of your site
+url: "http://kimchiDev.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
@@ -11,16 +11,15 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 # Author details for the jekyll-seo-tag gem
-author:
-  name: Your Name
-  email: your-email@domain.com
+author: "Kimchi-Dev"
+  name: "Kimchi-Dev"
+  email: "tnine923@gmail.com"
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Strata Reloaded Template
+  name: 
   links:
-    - https://github.com/comfusion/strata-reloaded-jekyll-template
 
 permalink: pretty
 
@@ -32,7 +31,7 @@ gems:
 
 # Jekyll SEO Tag
 webmaster_verifications:
-  google: # 1234
+  google: "kimchiDev" # 1234
   bing: # 1234
   alexa: # 1234
   yandex: # 1234
