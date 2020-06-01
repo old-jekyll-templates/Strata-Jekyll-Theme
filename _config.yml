@@ -1,6 +1,6 @@
 locale: "ko"
 title: "김치개발자" # Title of your site
-url: "https://kimchidev.github.io" # the base hostname & protocol for your site
+url: "https://kimchi-dev.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
