@@ -22,7 +22,7 @@ name:
 links:
 
 permalink: pretty
-
+pagenate: 10
 gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"
