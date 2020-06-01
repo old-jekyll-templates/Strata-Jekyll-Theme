@@ -12,14 +12,14 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # Author details for the jekyll-seo-tag gem
 author: "Kimchi-Dev"
-  name: " Blog for Developement"
-  email: "tnine923@gmail.com"
-  twitter: # twitter username without the @ symbol
+name: "Kimchi-Dev"
+email: "tnine923@gmail.com"
+twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: 
-  links:
+name: 
+links:
 
 permalink: pretty
 
