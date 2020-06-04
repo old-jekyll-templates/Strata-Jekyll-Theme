@@ -6,3 +6,7 @@
 #  link: '/feed.xml'
 #  social_icon: RSS
 #  new_window: true
+- name: Github
+  link: 'https://www.github.com/kimchi-dev'
+  social_icon: Github
+  new_window: true
