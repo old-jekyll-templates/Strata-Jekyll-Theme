@@ -1,6 +1,6 @@
 locale: "en-US"
 title: SHA # Title of your site
-url: "https://seongsu.github.io" # the base hostname & protocol for your site
+url: "https://sha17.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
