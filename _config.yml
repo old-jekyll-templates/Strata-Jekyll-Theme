@@ -6,7 +6,7 @@ google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Seongsu's archive for records of studying Computer Science and Dep Learning
+  Seongsu's archive for records of studying Computer Science and Deep Learning
 
 # Author details for the jekyll-seo-tag gem
 author:
